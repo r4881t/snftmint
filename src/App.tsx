@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Demo } from './Demo';
 
 function App() {
   return (
     <div className="App">
+      <h1>Solana Wallet and Mint</h1>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
